@@ -58,7 +58,7 @@ nav ul {
 nav ul li {
   margin: 0 10px;
 }
-nav .btns li {
+.nav-btns {
   margin-right: -5px;
 }
 
@@ -101,7 +101,6 @@ nav .btns li {
 .btn.login {
   color: #1c1d1f;
   background-color: transparent;
-  /* margin: 0 -12px; */
 }
 
 .btn.signup {
@@ -124,7 +123,7 @@ nav .btns li {
   background-color: beige;
 }
 
-nav .navs li a:hover,
+.nav-links:hover,
 .categories:hover {
   color: #5624d0;
   cursor: pointer;
