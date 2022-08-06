@@ -12,11 +12,15 @@
 
 <body>
     <header>
+        <button class="btn search-small">
+            <i class="fa-solid fa-bars fa-xl"></i>
+        </button>
         <div class="header-container">
-            <a href="\">
-                <img src="Images/logo-udemy.svg" alt="Udemy logo" width="91" height="34">
-            </a>
-
+            <div class="logo">
+                <a href="\">
+                    <img src="Images/logo-udemy.svg" alt="Udemy logo" width="91" height="34">
+                </a>
+            </div>
             <nav class="categories">
                 Categories
             </nav>
@@ -27,20 +31,30 @@
                     <input type="text" placeholder="Search for anything" name="search" class="search-input">
                 </form>
             </div>
+            <button class="btn search-small">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </button>
 
-            <nav>
+            <nav class="nav-links">
                 <ul>
-                    <li> <a href="/" class="nav-links">Udemy Business</a></li>
-                    <li> <a href="/" class="nav-links">Teach on Udemy</a></li>
-                    <li> <a href="/" class="nav-links"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
-                </ul>
-                <ul class="btns">
-                    <li class="nav-btns"> <a href="/" class="btn login">Log in</a></li>
-                    <li class="nav-btns"> <a href="/" class="btn signup">Sign up</a></li>
-                    <li class="nav-btns"> <a href="/" class="btn earth"><i class="fa-solid fa-globe"></i></a></li>
+                    <li> <a href="/" class="nav-list-links business-nav">Udemy Business</a></li>
+                    <li> <a href="/" class="nav-list-links teach-nav">Teach on Udemy</a></li>
                 </ul>
             </nav>
-            <!-- <a href="#about" class="btn earth"><i class="fa-solid fa-globe"></i></a> -->
+            <a href="/" class="btn cart-link"><i class="fa-solid fa-cart-arrow-down fa-xl"></i></a>
+            <nav class="nav-btns">
+                <ul>
+                    <li class="nav-list-btns">
+                        <a href="/" class="btn login">Log in</a>
+                    </li>
+                    <li class="nav-list-btns">
+                        <a href="/" class="btn signup">Sign up</a>
+                    </li>
+                    <li class="nav-list-btns">
+                        <a href="/" class="btn earth"><i class="fa-solid fa-globe fa-lg"></i></a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
 </body>

@@ -25,6 +25,7 @@ body {
   border: 1px solid #1c1d1f;
   font-weight: bold;
   display: inline-block;
+  background-color: transparent;
 }
 
 /* End global class styling */
@@ -38,6 +39,7 @@ header {
   align-items: center;
   font-weight: lighter;
   font-size: 13px;
+  min-width: 610px;
 }
 
 nav {
@@ -58,7 +60,7 @@ nav ul {
 nav ul li {
   margin: 0 10px;
 }
-.nav-btns {
+.nav-list-btns {
   margin-right: -5px;
 }
 
@@ -98,36 +100,96 @@ nav ul li {
   text-align: center;
 }
 
-.btn.login {
+.login {
   color: #1c1d1f;
   background-color: transparent;
 }
 
-.btn.signup {
+.signup {
   color: white;
   background-color: #1c1d1f;
 }
 
-.btn.earth {
+.earth {
   display: flex;
   align-items: center;
   padding: 10px 12px;
   height: 20px;
 }
 
+.cart-link {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-color: transparent;
+  margin-right: -10px;
+}
+
+.search-small {
+  display: none;
+}
+
 .categories {
   padding: 0 1.2rem;
 }
+
 .btn.earth:hover,
 .btn.login:hover {
   background-color: beige;
 }
 
-.nav-links:hover,
-.categories:hover {
+.nav-list-links:hover,
+.categories:hover,
+.search-small:hover,
+.cart-link:hover {
   color: #5624d0;
   cursor: pointer;
+}
 
-  /* color: red; */
+/* Media queries */
+
+@media only screen and (max-width: 1080px) {
+  .business-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .nav-links {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-btns {
+    display: none;
+  }
+
+  .search-container {
+    display: none;
+  }
+
+  .categories {
+    display: none;
+  }
+
+  .cart-link:hover,
+  .search-small:hover {
+    color: black;
+  }
+
+  .search-small {
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-color: transparent;
+    margin-right: -10px;
+  }
+
+  .logo {
+    text-align: center;
+    flex-grow: 1;
+  }
 }
 /* End header styling */
