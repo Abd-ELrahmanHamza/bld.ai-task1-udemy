@@ -7,37 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Courses - Learn Anything, On Your Schedule | Udemy</title>
     <link rel="stylesheet" href="CSS/fontawesome/CSS/all.min.css">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/main.css">
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div class="header-container">
             <a href="\">
                 <img src="Images/logo-udemy.svg" alt="Udemy logo" width="91" height="34">
             </a>
 
-            <nav>
+            <nav class="categories">
                 Categories
             </nav>
 
-            <div>
-                <form action="">
+            <div class="search-container">
+                <form action="" class="search-form">
                     <i class="fa fa-search search-icon"></i>
-                    <input type="text" placeholder="Search for anything" name="search">
+                    <input type="text" placeholder="Search for anything" name="search" class="search-input">
                 </form>
             </div>
 
             <nav>
-                <ul>
+                <ul class="navs">
                     <li> <a href="#home">Udemy Business</a></li>
                     <li> <a href="#home">Teach on Udemy</a></li>
                     <li> <a href="#contact"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
-                    <li> <a href="#about">Login</a></li>
-                    <li> <a href="#about">Sign up</a></li>
-                    <li> <a href="#about"><i class="fa-solid fa-globe"></i></a></li>
+                </ul>
+                <ul class="btns">
+                    <li> <a href="#about" class="btn login">Log in</a></li>
+                    <li> <a href="#about" class="btn signup">Sign up</a></li>
+                    <li> <a href="#about" class="btn earth"><i class="fa-solid fa-globe"></i></a></li>
                 </ul>
             </nav>
+                    <!-- <a href="#about" class="btn earth"><i class="fa-solid fa-globe"></i></a> -->
         </div>
     </header>
 </body>
