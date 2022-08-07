@@ -32,7 +32,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 /* End global class styling */
@@ -231,6 +231,10 @@ nav ul li {
 /* End offer section styling */
 
 /* Start courses section styling */
+.career-title {
+  margin: 0;
+}
+
 .courses-paragraph {
   display: -webkit-box !important;
   -webkit-line-clamp: 3;
@@ -244,7 +248,7 @@ nav ul li {
 
 .courses-section {
   border: 1px solid #d1d7dc;
-  padding: 3.2rem;
+  padding: 1.5rem;
 }
 
 .courses-list {
@@ -290,7 +294,7 @@ nav ul li {
   font-weight: bold;
 }
 
-.courses{
+.courses {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
