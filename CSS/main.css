@@ -300,6 +300,20 @@ nav ul li {
   flex-wrap: wrap;
 }
 
+.course-discount {
+  color: #6a6f73;
+  margin: 0;
+  font-size: 13px;
+  display: inline;
+  font-weight: lighter;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.course-price {
+  margin: 0.5rem 0;
+  display: inline-block;
+}
 .course-rate {
   color: #b4695b;
 }
