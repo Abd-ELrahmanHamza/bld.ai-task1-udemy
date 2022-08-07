@@ -12,6 +12,7 @@ ul {
 
 body {
   margin: 0;
+  padding: 0;
   font-family: sans-serif;
 }
 
@@ -211,7 +212,7 @@ nav ul li {
   align-items: center;
   background-color: #f7f9fb;
   padding: 0 3rem;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .offer-details {
@@ -220,13 +221,15 @@ nav ul li {
   justify-content: space-around;
   background-color: white;
   box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
-  padding: 2.4rem;
+  padding: 1.2rem 1.5rem 1.2rem 1.2rem;
   width: 20rem;
   left: 4.8rem;
 }
 
 .offer-heading {
   font-size: 1.7rem;
+  margin: 0;
+  font-family: serif;
 }
 /* End offer section styling */
 
@@ -253,6 +256,8 @@ nav ul li {
 
 .courses-list {
   display: flex;
+  overflow: hidden;
+  width: auto;
 }
 
 .course-item {
@@ -296,7 +301,7 @@ nav ul li {
 
 .courses {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -316,8 +321,21 @@ nav ul li {
 }
 .course-rate {
   color: #b4695b;
+  font-style: normal;
 }
 
+.best-seller {
+  background-color: #eceb98;
+  color: #3d3c0a;
+}
+
+.best-seller {
+  display: block;
+  width: fit-content;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 6px;
+}
 .course-item:hover {
   color: black;
   cursor: pointer;
