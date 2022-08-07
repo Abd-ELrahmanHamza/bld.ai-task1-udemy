@@ -28,12 +28,19 @@ body {
   background-color: transparent;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
 /* End global class styling */
 
 /* Start header styling */
 
 header {
-  box-shadow: 0 20px 20px rgb(0 0 0 / 8%);
+  box-shadow: 0 2px 4px rgb(28 76 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
   height: 4.5rem;
   display: flex;
   align-items: center;
@@ -204,6 +211,7 @@ nav ul li {
   align-items: center;
   background-color: #f7f9fb;
   padding: 0 3rem;
+  width: 100%;
 }
 
 .offer-details {
@@ -221,3 +229,83 @@ nav ul li {
   font-size: 1.7rem;
 }
 /* End offer section styling */
+
+/* Start courses section styling */
+.courses-paragraph {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  margin-bottom: 1.6rem;
+  max-width: 50rem;
+}
+
+.courses-section {
+  border: 1px solid #d1d7dc;
+  padding: 3.2rem;
+}
+
+.courses-list {
+  display: flex;
+}
+
+.course-item {
+  margin-right: 20px;
+  font-weight: bold;
+  color: #6a6f73;
+}
+
+.active {
+  color: black;
+}
+
+.course {
+  width: 240px;
+  margin: 2rem 0;
+}
+
+.course-title {
+  margin: 0.5rem 0;
+}
+
+.course-instructor {
+  color: #6a6f73;
+  margin: 0;
+  font-size: 13px;
+}
+
+.course-students {
+  color: #6a6f73;
+  margin: 0;
+  font-size: 13px;
+  display: inline;
+  font-weight: lighter;
+}
+
+.stars {
+  margin: 0.5rem 0 0.5rem 0;
+  color: #e59819;
+  font-weight: bold;
+}
+
+.courses{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.course-rate {
+  color: #b4695b;
+}
+
+.course-item:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.explore:hover {
+  background-color: beige;
+}
+/* End courses section styling */
