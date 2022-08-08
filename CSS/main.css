@@ -110,6 +110,13 @@ nav ul li {
   text-align: center;
 }
 
+.submit-search {
+  color: white;
+  background-color: #1c1d1f;
+  height: 100%;
+  border-radius: 9999px;
+}
+
 .login {
   color: #1c1d1f;
   background-color: transparent;
