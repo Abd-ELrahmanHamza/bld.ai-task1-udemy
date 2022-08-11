@@ -1,3 +1,6 @@
+/*
+  Contains offer section styling
+*/
 .offer {
   display: flex;
   justify-content: space-around;
@@ -5,7 +8,6 @@
   align-items: center;
   background-color: #f7f9fb;
   padding: 0 3rem;
-  /* width: 100%; */
 }
 
 .offer-details {
